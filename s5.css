@@ -1,0 +1,41 @@
+.view{
+    background-image: url('primage.webp');
+    height: 100vh;
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+    width:100%;
+    height:120vh;
+}
+.box {
+    background-color: rgba(214, 147, 226, 0.7);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    margin: 3px;
+}
+.box1 {
+    background-color: rgba(69, 216, 123, 0.7);
+    padding: 10px;
+    border: dotted;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    margin: 5px;
+    
+  }
+  .box2 {
+    background-color: rgba(103, 124, 206, 0.7);
+    padding: 10px;
+    border: dotted;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    margin: 5px;
+  }

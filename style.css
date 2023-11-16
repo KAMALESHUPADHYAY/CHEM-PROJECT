@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.active{
+    border-bottom: 2px solid white;
+}
+.footer{
+    height: 20vh;
+    background-color: gray;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 4px solid white ;
+}
+.home{
+    background-image: url('proimage.webp');
+    height: 100vh;
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+width:100%;
+height:120vh;
+}
+.innerbox{
+    background-color: white;
+    height: 50vh;
+    width: 80vh;
+    border: 4px solid black;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+    padding:6vh;
+    box-sizing: border-box;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    border-bottom: 4px solid white  ;
+    z-index: 10;
+    
+}
+.navitemscont{
+    width: 50%;
+}
+.navitemscont ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.navitems{
+    list-style: none;
+}
+.upperfoot{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.f1{
+    width: 30%;
+    text-align: center;
+    border-right: 2px solid white;
+}
+.f1 a{
+    text-decoration: none;
+    color: white;
+}
+.f1 a:hover{
+    color: blue;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 1vh;
+}
+.link:hover{
+    border-bottom: 2px solid white;
+    color: rgb(189, 134, 62);
+}
+.topic{
+    width: 20%;
+    text-align: center;
+}
+.a1{
+    border: 1px solid gold
+}
+
+
+.i{
+    display:inline;
+    box-sizing: border-box;
+}

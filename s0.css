@@ -1,0 +1,9 @@
+.box {
+    background-color: rgba(214, 147, 226, 0.7);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    margin: 3px;
+}

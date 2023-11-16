@@ -1,0 +1,23 @@
+.fac{
+    background-image: url('imageprr.jpeg');
+    height: 100vh;
+    opacity: 0.8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+    width:100%;
+    height:120vh;
+}
+.box {
+    background-color: rgba(96, 201, 209, 0.7);
+    padding: 10px;
+    border: dotted;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    margin: 5px;
+    
+  }
